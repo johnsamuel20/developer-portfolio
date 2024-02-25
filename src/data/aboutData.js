@@ -1,6 +1,6 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
-    image: 2
+    title: "Who am I",
+    description1: "My name's John Samuel. I'm a web designer and developer based in Cairo, Egypt.",
+    description2: "I am a proficient software developer with expertise in both front end and back end technologies, particularly skilled in the MERN stack. My creations seamlessly integrate MongoDB, Express.js, React.js, and Node.js, reflecting a user-centric approach and a keen eye for detail. With a commitment to innovation and excellence, I lead projects to new heights, delivering intuitive designs and flawless functionality. ",
+    image: 1
 }

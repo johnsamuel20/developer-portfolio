@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.e10b0c73.css",
-    "main.js": "/developer-portfolio/static/js/main.6a6dfe84.js",
+    "main.js": "/developer-portfolio/static/js/main.33440539.js",
     "static/js/453.1cc257ae.chunk.js": "/developer-portfolio/static/js/453.1cc257ae.chunk.js",
     "static/media/four.svg": "/developer-portfolio/static/media/four.bd70304d5c1d04da32e60413fdfadfea.svg",
     "static/media/porto.jpg": "/developer-portfolio/static/media/porto.45c514d770cf8031b9d6.jpg",
@@ -79,12 +79,12 @@
     "static/media/coffeescript.svg": "/developer-portfolio/static/media/coffeescript.51d0944109f5cdb5fc77da389e1a6306.svg",
     "static/media/go.svg": "/developer-portfolio/static/media/go.6608613ac9a6597fc9b49cacd540e8d8.svg",
     "static/media/selenium.svg": "/developer-portfolio/static/media/selenium.f0d42a919f46fff9a80d6ac6f5f65916.svg",
+    "index.html": "/developer-portfolio/index.html",
     "static/media/wolframalpha.svg": "/developer-portfolio/static/media/wolframalpha.e6299b2d5f348c7c62bf474521b73fe0.svg",
     "static/media/swift.svg": "/developer-portfolio/static/media/swift.8a92ca4763bd8ddbf4e45884b030ac75.svg",
     "static/media/cplusplus.svg": "/developer-portfolio/static/media/cplusplus.3b0d7340ed9a40a744043d23ffa5ebe1.svg",
     "static/media/graphql.svg": "/developer-portfolio/static/media/graphql.9e11f395a1393d1d0db05dbb0bb5c1ac.svg",
     "static/media/svelte.svg": "/developer-portfolio/static/media/svelte.47c3575754ecc861ae8a2f8df520400b.svg",
-    "index.html": "/developer-portfolio/index.html",
     "static/media/microsoftoffice.svg": "/developer-portfolio/static/media/microsoftoffice.75a83b98c378ee32b3df5bb5e22e6f0c.svg",
     "static/media/csharp.svg": "/developer-portfolio/static/media/csharp.c7c6fad1ff0dfa61c18bb4e836208d29.svg",
     "static/media/java.svg": "/developer-portfolio/static/media/java.e9ccff93b0aa1395d35e7c0ba529ac54.svg",
@@ -145,11 +145,11 @@
     "static/media/vuetifyjs.svg": "/developer-portfolio/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/developer-portfolio/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.e10b0c73.css.map": "/developer-portfolio/static/css/main.e10b0c73.css.map",
-    "main.6a6dfe84.js.map": "/developer-portfolio/static/js/main.6a6dfe84.js.map",
+    "main.33440539.js.map": "/developer-portfolio/static/js/main.33440539.js.map",
     "453.1cc257ae.chunk.js.map": "/developer-portfolio/static/js/453.1cc257ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e10b0c73.css",
-    "static/js/main.6a6dfe84.js"
+    "static/js/main.33440539.js"
   ]
 }

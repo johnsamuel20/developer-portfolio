@@ -16,7 +16,7 @@ export const educationData = [
     {
         id: 3,
         institution: 'Ain Shams University',
-        course: 'Master of Mechanical Engineering & Computer Science',
+        course: 'Master of Mechanical Eng. & CS',
         startYear: '2024',
         endYear: 'Present'
     },

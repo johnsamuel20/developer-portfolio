@@ -33,7 +33,6 @@ import go from '../assets/svg/skills/go.svg'
 import java from '../assets/svg/skills/java.svg'
 import julia from '../assets/svg/skills/julia.svg'
 import kotlin from '../assets/svg/skills/kotlin.svg'
-import matlab from '../assets/svg/skills/matlab.svg'
 import php from '../assets/svg/skills/php.svg'
 import python from '../assets/svg/skills/python.svg'
 import ruby from '../assets/svg/skills/ruby.svg'
@@ -72,8 +71,19 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
 import canva from '../assets/svg/skills/canva.svg'
+
+
+import revit from '../assets/svg/skills/revit.png'
+import autocad from '../assets/svg/skills/autocad.png'
+import inventor from '../assets/svg/skills/inventor.png'
+import solidworks from '../assets/svg/skills/solidworks.png'
+import matlab from '../assets/svg/skills/matlab.svg'
+import ansys from '../assets/svg/skills/ansys.png'
+import homer from '../assets/svg/skills/homer.png'
+
+
+
 
 
 export const skillsImage = (skill) => {
@@ -149,8 +159,6 @@ export const skillsImage = (skill) => {
             return kotlin;
         case 'julia':
             return julia;
-        case 'matlab':
-            return matlab;
         case 'php':
             return php;
         case 'python':
@@ -225,8 +233,22 @@ export const skillsImage = (skill) => {
             return unity;
         case 'wolframalpha':
             return wolframalpha;
+        case 'revit' :
+            return revit;    
         case 'canva':
             return canva;
+        case 'autocad':
+            return autocad ;
+        case 'inventor':
+            return inventor;
+        case 'solidworks':
+            return solidworks;
+        case 'matlab':
+            return matlab ;
+        case 'ansys' :
+            return ansys;
+        case 'homer' :
+            return homer
         default:
             break;
     }

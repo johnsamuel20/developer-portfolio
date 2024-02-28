@@ -11,20 +11,20 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
+        projectName: 'Motorcycle Company',
+        projectDesc: 'Static Website for Information about the company that will be developed to an E-commerce Website',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/johnsamuel20/moto-maher',
+        demo: 'https://johnsamuel20.github.io/moto-maher/',
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
+        projectName: 'Trust Pharma Company',
         projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        tags: ['React', 'Tailwind CSS , Material Ui'],
+        code: 'https://github.com/john-0-andrew/trust-pharma',
+        demo: 'https://john-0-andrew.github.io/trust-pharma/',
         image: two
     },
     {

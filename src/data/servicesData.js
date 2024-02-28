@@ -9,7 +9,7 @@ import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, F
 export const servicesData = [
     {
         id: 1,
-        title: 'E-commerce',
+        title: 'E-Commerce',
         icon: <BiShoppingBag/>
     },
     // {
@@ -63,11 +63,11 @@ export const servicesData = [
     //     title: 'Ebook Writing',
     //     icon: <FaTabletAlt />
     // },
-    {
-        id: 12,
-        title: 'Audio Transcription',
-        icon: <AiFillAudio />
-    },
+    // {
+    //     id: 12,
+    //     title: 'Audio Transcription',
+    //     icon: <AiFillAudio />
+    // },
     {
         id: 13,
         title: 'Blog Posting',

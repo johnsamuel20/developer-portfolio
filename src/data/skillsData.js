@@ -1,4 +1,4 @@
- export const skillsData = [
+ export const skillsDataSoft = [
     'HTML',
     'CSS',
     'Javascript',
@@ -11,9 +11,18 @@
     'Git',
     'React',
     'MongoDB',
-    'Python'
+    'Python' 
 ]
 
+export const skillsDataMech = [
+    'Revit',
+    'AutoCad',
+    'Inventor',
+    'SolidWorks',
+    'Matlab',
+    'Ansys',
+    'Homer'
+]
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
 

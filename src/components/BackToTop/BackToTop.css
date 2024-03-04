@@ -1,6 +1,6 @@
 .backToTop {
     position: fixed; 
-    right: 10px;
+    left: 1px;
     bottom: 60px;
     height: 30px;
     font-size: 3rem;

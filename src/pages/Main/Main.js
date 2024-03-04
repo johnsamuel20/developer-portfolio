@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 
 import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Experience, Contacts, Projects, Services, } from '../../components'
 import { headerData } from '../../data/headerData'
-
+import ChatBot from '../../components/ChatBot/ChatBot'
 function Main() {
     return (
         <div>
@@ -24,6 +24,7 @@ function Main() {
             <Blog />
             <Contacts />
             <Footer />
+            <ChatBot />
         </div>
     )
 }

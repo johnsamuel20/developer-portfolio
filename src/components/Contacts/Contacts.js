@@ -27,6 +27,8 @@ import { socialsData } from "../../data/socialsData";
 import { contactsData } from "../../data/contactsData";
 import "./Contacts.css";
 import emailjs from '@emailjs/browser';
+import FormSent from '../FormSent/FormSent'
+import FormError from '../FormError/FormError'
 
 function Contacts() {
   const [open, setOpen] = useState(false);
@@ -160,22 +162,35 @@ function Contacts() {
     // }
     
 //   };
+const [successMessage , setSuccessMessage] = useState(false)
+const [failMessage , setFailMessage] = useState(false)
+
 const form = useRef();
   const handleContactForm = (e) => {
     e.preventDefault();
     
-    emailjs
-      .sendForm('service_9ejr2qk', 'service_9ejr2qk', form.current, {
+    if (user_name && user_email && message) {
+      emailjs
+      .sendForm('service_9ejr2qk', 'template_1f2dfep', form.current, {
         publicKey: 'G9DY2UhDSeYuQk2PQ',
       })
       .then(
         () => {
           console.log('SUCCESS!');
+          setSuccessMessage(true)
+          setFailMessage(false)
         },
         (error) => {
           console.log('FAILED...', error.text);
+          setSuccessMessage(false)
+          setFailMessage(true)
         },
       );
+    }else {
+      setSuccessMessage(false)
+      setFailMessage(true)
+    }
+
   };
 
   return (
@@ -188,7 +203,7 @@ const form = useRef();
         <h1 style={{ color: theme.primary }}>Contacts</h1>
         <div className="contacts-body">
           <div className="contacts-form">
-            <form onSubmit={handleContactForm}>
+            <form ref={form} onSubmit={handleContactForm}>
               <div className="input-container">
                 <label htmlFor="Name" className={classes.label}>
                   Name
@@ -198,7 +213,7 @@ const form = useRef();
                   value={user_name}
                   onChange={(e) => setName(e.target.value)}
                   type="text"
-                  name="Name"
+                  name="user_name"
                   className={`form-input ${classes.input}`}
                 />
               </div>
@@ -211,7 +226,7 @@ const form = useRef();
                   value={user_email}
                   onChange={(e) => setEmail(e.target.value)}
                   type="email"
-                  name="Email"
+                  name="user_email"
                   className={`form-input ${classes.input}`}
                 />
               </div>
@@ -224,13 +239,13 @@ const form = useRef();
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   type="text"
-                  name="Message"
+                  name="message"
                   className={`form-message ${classes.message}`}
                 />
               </div>
 
               <div className="submit-btn">
-                <button type="submit" className={classes.submitBtn}>
+                <button type="submit" className={classes.submitBtn} onClick={handleContactForm}>
                   <p>{!success ? "Send" : "Sent"}</p>
                   <div className="submit-icon">
                     <AiOutlineSend
@@ -424,6 +439,8 @@ const form = useRef();
         </div>
       </div>
       <img src={theme.contactsimg} alt="contacts" className="contacts--img" />
+      {successMessage && <FormSent/>}
+      {failMessage && <FormError/>}
     </div>
   );
 }

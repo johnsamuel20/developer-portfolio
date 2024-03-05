@@ -14,6 +14,7 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaInstagram
 } from 'react-icons/fa';
 
 function Landing() {
@@ -75,6 +76,19 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
+                    {socialsData.instagram && (
+                            <a
+                                href={socialsData.instagram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaInstagram
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Blogger'
+                                />
+                            </a>
+                        )}
                         {socialsData.linkedIn && (
                             <a
                                 href={socialsData.linkedIn}

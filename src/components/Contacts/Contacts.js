@@ -1,8 +1,8 @@
 import React, { useContext, useState , useRef } from "react";
 import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
-import axios from "axios";
-import isEmail from "validator/lib/isEmail";
+// import axios from "axios";
+// import isEmail from "validator/lib/isEmail";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   FaTwitter,
@@ -37,8 +37,10 @@ function Contacts() {
   const [user_email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const [success, setSuccess] = useState(false);
-  const [errMsg, setErrMsg] = useState("");
+  // const [success, setSuccess] = useState(false);
+  // const [errMsg, setErrMsg] = useState("");
+  const success = false;
+  const errMsg = "";
 
   const { theme } = useContext(ThemeContext);
 

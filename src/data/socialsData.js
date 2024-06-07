@@ -1,7 +1,7 @@
 export const socialsData = {
     github: 'https://github.com/johnsamuel20',
     facebook: 'https://www.facebook.com/john.samuel.92798',
-    linkedIn: 'https://www.linkedin.com/in/john-samuel',
+    linkedIn: 'https://www.linkedin.com/in/john-samuel-7669a5244/',
     instagram: 'https://www.instagram.com/john_samuel19',
     // codepen: 'https://codepen.io/',
     // twitter: 'https://twitter.com/',

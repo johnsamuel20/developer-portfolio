@@ -23,7 +23,7 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'Trust Pharma Company',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
+        projectDesc: 'The goal of this project is to create a comprehensive, visually appealing, and user-friendly corporate website for a pharmaceutical company specializing in the sale of cosmetics and other wellness products.',
         tags: ['React', 'Tailwind CSS , Material Ui'],
         code: 'https://github.com/john-0-andrew/trust-pharma',
         demo: 'https://john-0-andrew.github.io/trust-pharma/',
@@ -38,51 +38,51 @@ export const projectsData = [
         demo: 'https://johnsamuel20.github.io/SemiColon-registration-frontend/',
         image: semicolon
     },
-    {
-        id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: '',
-        demo: '',
-        image: four
-    },
+    // {
+    //     id: 4,
+    //     projectName: 'Android Patient Tracker',
+    //     projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
+    //     tags: ['Flutter', 'Firebase'],
+    //     code: '',
+    //     demo: '',
+    //     image: four
+    // },
     {
         id: 5,
         projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
+        projectDesc: 'E-commerce web app',
+        tags: ['WordPress', ],
         code: '',
         demo: '',
         image: five
     },
-    {
-        id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: '',
-        demo: '',
-        image: six
-    },
-    {
-        id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: '',
-        demo: '',
-        image: seven
-    },
-    {
-        id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: '',
-        demo: '',
-        image: eight
-    },
+    // {
+    //     id: 6,
+    //     projectName: 'Uber Lite',
+    //     projectDesc: 'Uber clone',
+    //     tags: ['Flutter'],
+    //     code: '',
+    //     demo: '',
+    //     image: six
+    // },
+    // {
+    //     id: 7,
+    //     projectName: 'Stock Market App',
+    //     projectDesc: 'A simple stock market API app',
+    //     tags: ['React', 'Redux', 'Bootstrap'],
+    //     code: '',
+    //     demo: '',
+    //     image: seven
+    // },
+    // {
+    //     id: 8,
+    //     projectName: 'Car Pooling System',
+    //     projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
+    //     tags: ['Flutter', 'React'],
+    //     code: '',
+    //     demo: '',
+    //     image: eight
+    // },
 ]
 
 

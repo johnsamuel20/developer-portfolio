@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.298bb907.css",
-    "main.js": "/static/js/main.eb9ee58e.js",
+    "main.js": "/static/js/main.8317f596.js",
     "static/js/453.1cc257ae.chunk.js": "/static/js/453.1cc257ae.chunk.js",
     "static/media/four.svg": "/static/media/four.bd70304d5c1d04da32e60413fdfadfea.svg",
     "static/media/porto.jpg": "/static/media/porto.45c514d770cf8031b9d6.jpg",
@@ -14,7 +14,7 @@
     "static/media/expPink.svg": "/static/media/expPink.ac1de145943281e48101635d936e07a1.svg",
     "static/media/expPurple.svg": "/static/media/expPurple.c054e7936866e05307edbf7a6d27ddde.svg",
     "static/media/expYellow.svg": "/static/media/expYellow.cff6e7009ac8cce0c8806daff98c4c87.svg",
-    "static/media/John Samuel Resume.pdf": "/static/media/John Samuel Resume.cb7a680579e919ce7ad4.pdf",
+    "static/media/John Samuel Mech CV.pdf": "/static/media/John Samuel Mech CV.591a9863ef9b5b2a00a0.pdf",
     "static/media/motorcycle.png": "/static/media/motorcycle.5d2a436a7a7f61a495a6.png",
     "static/media/semicolon.png": "/static/media/semicolon.3dae6b201cbea0790b02.png",
     "static/media/five.svg": "/static/media/five.3fc9b49ee74629fae905840057830500.svg",
@@ -150,11 +150,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.298bb907.css.map": "/static/css/main.298bb907.css.map",
-    "main.eb9ee58e.js.map": "/static/js/main.eb9ee58e.js.map",
+    "main.8317f596.js.map": "/static/js/main.8317f596.js.map",
     "453.1cc257ae.chunk.js.map": "/static/js/453.1cc257ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.298bb907.css",
-    "static/js/main.eb9ee58e.js"
+    "static/js/main.8317f596.js"
   ]
 }
